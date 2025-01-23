@@ -1,1 +1,1 @@
-# Bobyue0118-Understanding-Constraint-Inference-in-Safety-Critical-Inverse-Reinforcement-Learning
+# Understanding-Constraint-Inference-in-Safety-Critical-Inverse-Reinforcement-Learning
