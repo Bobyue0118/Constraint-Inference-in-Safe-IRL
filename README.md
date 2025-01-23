@@ -1,5 +1,7 @@
 # Understanding-Constraint-Inference-in-Safety-Critical-Inverse-Reinforcement-Learning
 
+This is the repo for the paper: Understanding Constraint Inference in Safety-Critical Inverse Reinforcement Learning, published at ICLR 2025. 
+
 Should you find this work helpful, please consider citing:
 ```
 @inproceedings{
