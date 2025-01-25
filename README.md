@@ -1,8 +1,6 @@
 # Understanding Constraint Inference in Safety-Critical Inverse Reinforcement Learning
 
 This is the repo for the paper: Understanding Constraint Inference in Safety-Critical Inverse Reinforcement Learning, published at ICLR 2025. Note that:
-1. The experimental environment is mainly based on the [MuJoCo](https://mujoco.org/).
-2. The implementation is based on the code from [ICRL-benchmark](https://github.com/Guiliang/ICRL-benchmarks-public/tree/main).
 
 ## Contribution
 ### Core Problem: Inverse Constraint Inference (ICI)
@@ -90,4 +88,8 @@ year={2025},
 url={https://openreview.net/forum?id=B2RXwASSpy}
 }
 ```
+
+## Acknowledgement
+1. The experimental environment is mainly based on the [MuJoCo](https://mujoco.org/).
+2. The implementation is based on the code from [ICRL-benchmark](https://github.com/Guiliang/ICRL-benchmarks-public/tree/main).
 
