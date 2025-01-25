@@ -3,15 +3,15 @@
 This is the repo for the paper: Understanding Constraint Inference in Safety-Critical Inverse Reinforcement Learning, published at ICLR 2025. Note that:
 
 ## Contribution
-### Core Problem: Inverse Constraint Inference (ICI)
+### 1. Core Problem: Inverse Constraint Inference (ICI)
 - In many practical applications, constraints are not readily available, so we need to infer the constraints followed by expert agents based on their behaviors. This is known as the ICI problem. The input of an ICI problem is the environment with known reward signals and the expert policy. Typically, the environment is a Markov Decision Process and the expert policy is optimal. The output of an ICI problem is constraint signals based on which an agent can align with expert behaviors.
-### Critical Question
+### 2. Critical Question
 - *Can we implicitly embed constraint signals into reward functions and effectively solve ICI problem using a classic reward inference algorithm?*
-### Solver One: Inverse Reward Correction (IRC)
+### 3. Solver One: Inverse Reward Correction (IRC)
 - An IRC solver outputs the constraint signal as reward correction terms $\Delta r$ so that $r^c(s,a)=r(s,a)+{\mathit{\Delta r}}(s,a)$ ensures alignment with expert behaviors.
-### Solver Two: Inverse Constrained Reinforcement Learning (ICRL)
+### 4. Solver Two: Inverse Constrained Reinforcement Learning (ICRL)
 - An ICRL solver outputs the constraint signal as cost functions $c$ so that the constraint condition ensures alignment with expert behaviors.
-### Key Insight
+### 5. Key Insight
 - Training efficiency: IRC > ICRL
 - Cross-environment Transferability: ICRL > IRC
 
@@ -41,8 +41,8 @@ export PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:YOUR_MUJOCO_DIR/.mujoco/mujoco210/bin:/usr/lib/nvidia
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/nvidia
 ```
-
-## IRC vs ICRL
+## Experiments
+## 1. IRC vs ICRL
 ```
 # step into the interface dir
 cd ./interface/
@@ -56,7 +56,7 @@ python train_irc.py ../config/mujoco_WGW-discrete-v0/train_ICRL_discrete_WGW-v0-
 python train_irc_target.py ../config/mujoco_WGW-discrete-v0/train_ICRL_discrete_WGW-v0-setting1.yaml ../config/mujoco_WGW-discrete-v0/train_ICRL_discrete_WGW-v0-setting1_target.yaml
 ```
 
-## Numerical Validation of Theorem 5.3
+## 2. Numerical Validation of Theorem 5.3
 Please refer to `numerical_analysis_of_example_in_Fig1.ipynb`.
 
 ## Related works
