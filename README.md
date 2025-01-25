@@ -6,7 +6,7 @@ This is the repo for the paper: Understanding Constraint Inference in Safety-Cri
 ### Core Problem: Inverse Constraint Inference (ICI)
 - In many practical applications, constraints are not readily available, so we need to infer the constraints followed by expert agents based on their behaviors. This is known as the ICI problem. The input of an ICI problem is the environment with known reward signals and the expert policy. Typically, the environment is a Markov Decision Process and the expert policy is optimal. The output of an ICI problem is constraint signals based on which an agent can align with expert behaviors.
 ### Critical Question
-- **Can we implicitly embed constraint signals into reward functions and effectively solve ICI problem using a classic reward inference algorithm?**
+- *Can we implicitly embed constraint signals into reward functions and effectively solve ICI problem using a classic reward inference algorithm?*
 ### Solver One: Inverse Reward Correction (IRC)
 - An IRC solver outputs the constraint signal as reward correction terms $\Delta r$ so that $r^c(s,a)=r(s,a)+{\mathit{\Delta r}}(s,a)$ ensures alignment with expert behaviors.
 ### Solver Two: Inverse Constrained Reinforcement Learning (ICRL)
