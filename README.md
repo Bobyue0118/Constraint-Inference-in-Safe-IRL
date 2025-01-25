@@ -4,8 +4,11 @@ This is the repo for the paper: Understanding Constraint Inference in Safety-Cri
 1. The experimental environment is mainly based on the [MuJoCo](https://mujoco.org/).
 2. The implementation is based on the code from [ICRL-benchmark](https://github.com/Guiliang/ICRL-benchmarks-public/tree/main).
 
-## Core Problem
-- **Can we implicitly embed constraint signals into reward functions and effectively solve this problem using a classic reward inference algorithm?**
+## Contribution
+### Core Problem: Inverse Constraint Inference (ICI)
+- In many practical applications, constraints are not readily available, so we need to infer the constraints followed by expert agents based on their behavior. An ICI problem is a pair $\mathfrak{P}=(\mathcal{M},\pi^{E})$ where $\pi^{E}\in\Delta^\mathcal{A}_{\mathcal{S}}$ is the expert's policy.
+### Critical Question
+- **Can we implicitly embed constraint signals into reward functions and effectively solve ICI problem using a classic reward inference algorithm?**
 ### Solver One: Inverse Reward Correction (IRC)
 - An IRC solver is denoted as $\mathbb{S}_\text{IRC}$. A reward correction term  ${\mathit{\Delta r}}$ is a feasible solution for an ICI problem $\mathfrak{P}$ if and only if $\pi^{E}$ is an optimal policy for $(\mathcal{M}\backslash r)\cup r^c$, where corrected rewards $r^c(s,a)=r(s,a)+{\mathit{\Delta r}}(s,a), \forall(s,a)$.
 ### Solver Two: Inverse Constrained Reinforcement Learning (ICRL)
