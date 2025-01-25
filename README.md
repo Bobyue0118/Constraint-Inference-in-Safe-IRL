@@ -42,7 +42,7 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:YOUR_MUJOCO_DIR/.mujoco/mujoco210/bin:/u
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/nvidia
 ```
 ## Experiments
-## 1. IRC vs ICRL
+### 1. IRC vs ICRL
 ```
 # step into the interface dir
 cd ./interface/
@@ -56,7 +56,7 @@ python train_irc.py ../config/mujoco_WGW-discrete-v0/train_ICRL_discrete_WGW-v0-
 python train_irc_target.py ../config/mujoco_WGW-discrete-v0/train_ICRL_discrete_WGW-v0-setting1.yaml ../config/mujoco_WGW-discrete-v0/train_ICRL_discrete_WGW-v0-setting1_target.yaml
 ```
 
-## 2. Numerical Validation of Theorem 5.3
+### 2. Numerical Validation of Theorem 5.3
 Please refer to `numerical_analysis_of_example_in_Fig1.ipynb`.
 
 ## Related works
