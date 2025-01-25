@@ -75,7 +75,7 @@ Please refer to `numerical_analysis_of_example_in_Fig1.ipynb`.
 - [Awesome-Constraint-Inference-in-RL](https://github.com/Jasonxu1225/Awesome-Constraint-Inference-in-RL)
 - [Constrained-Decision-Making-Paper-List](https://github.com/zbzhu99/Constrained-Decision-Making-Paper-List)
 
-## Welcome to Cite and Star
+## Citation
 
 Should you find this work helpful, please consider citing:
 ```
