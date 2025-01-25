@@ -58,11 +58,11 @@ Please refer to `numerical_analysis_of_example_in_Fig1.ipynb`.
 - [Mind the Gap: Offline Policy Optimization for Imperfect Rewards](https://openreview.net/forum?id=WumysvcMvV6) [ICLR 2023]
 - [Simplifying constraint inference with inverse reinforcement learning](https://openreview.net/pdf?id=T5Cerv7PT2) [NeurIPS 2024]
 
-### Related to Constraint Inference
+### 3. Related to Constraint Inference
 - [Awesome-Constraint-Inference-in-RL](https://github.com/Jasonxu1225/Awesome-Constraint-Inference-in-RL)
 - [Constrained-Decision-Making-Paper-List](https://github.com/zbzhu99/Constrained-Decision-Making-Paper-List)
 
-## 3. Welcome to Cite and Star
+## Welcome to Cite and Star
 
 Should you find this work helpful, please consider citing:
 ```
