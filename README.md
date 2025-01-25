@@ -10,14 +10,9 @@ This is the repo for the paper: Understanding Constraint Inference in Safety-Cri
 - An IRC solver is denoted as $\mathbb{S}_\text{IRC}$. A reward correction term  ${\mathit{\Delta r}}$ is a feasible solution for an ICI problem $\mathfrak{P}$ if and only if $\pi^{E}$ is an optimal policy for $(\mathcal{M}\backslash r)\cup r^c$, where corrected rewards $r^c(s,a)=r(s,a)+{\mathit{\Delta r}}(s,a), \forall(s,a)$.
 ### Solver Two: Inverse Constrained Reinforcement Learning (ICRL)
 - An ICRL solver is denoted as $\mathbb{S}_\text{ICRL}$. A cost function $c$ is a feasible solution for an ICI problem $\mathfrak{P}$ if and only if $\pi^{E}$ is an optimal policy for CMDP $\mathcal{M}_c$.
-### Contribution
+### Key Insight
 - Training efficiency: IRC > ICRL
 - Cross-environment Transferability: ICRL > IRC
-  - Safety in target env
-    - hard constraint: ICRL ensures safety, IRC does not
-    - soft constraint: ICRL is not affected by reward change
-  - Optimality in target env
-    - Theorem 5.7
 
 ## Setup Experimental Environments 
 ### 1. Create Python Environment 
