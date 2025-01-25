@@ -4,6 +4,21 @@ This is the repo for the paper: Understanding Constraint Inference in Safety-Cri
 1. The experimental environment is mainly based on the [MuJoCo](https://mujoco.org/).
 2. The implementation is based on the code from [ICRL-benchmark](https://github.com/Guiliang/ICRL-benchmarks-public/tree/main).
 
+## Core Problem
+> Can we implicitly embed constraint signals into reward functions and effectively solve this problem using a classic reward inference algorithm?
+### Solver One: Inverse Reward Correction (IRC)
+- An IRC solver is denoted as $\mathbb{S}_\text{IRC}$. A reward correction term  ${\mathit{\Delta r}}$ is a {\it feasible} solution for an ICI problem $\mathfrak{P}$ if and only if $\pi^{E}$ is an optimal policy for \orange{$(\mathcal{M}\backslash r)\cup r^c$}, where corrected rewards $r^c(s,a)=r(s,a)+{\mathit{\Delta r}}(s,a), \forall(s,a)$.
+### Solver Two: Inverse Constrained Reinforcement Learning (ICRL)
+> An ICRL solver is denoted as $\mathbb{S}_\text{ICRL}$. A cost function $c$ is a {\it feasible} solution for an ICI problem $\mathfrak{P}$ if and only if $\pi^{E}$ is an optimal policy for CMDP $\mathcal{M}_c$.
+### Contribution
+- Training efficiency: IRC > ICRL
+- Cross-environment Transferability: ICRL > IRC
+  - Safety in target env
+    - hard constraint: ICRL ensures safety, IRC does not
+    - soft constraint: ICRL is not affected by reward change
+  - Optimality in target env
+    - Theorem 5.7
+
 ## Setup Experimental Environments 
 ### 1. Create Python Environment 
 1. Please install the conda before proceeding.
@@ -45,7 +60,7 @@ python train_irc.py ../config/mujoco_WGW-discrete-v0/train_ICRL_discrete_WGW-v0-
 python train_irc_target.py ../config/mujoco_WGW-discrete-v0/train_ICRL_discrete_WGW-v0-setting1.yaml ../config/mujoco_WGW-discrete-v0/train_ICRL_discrete_WGW-v0-setting1_target.yaml
 ```
 
-## Numerical Validation of Theorem 1
+## Numerical Validation of Theorem 5.3
 Please refer to `numerical_analysis_of_example_in_Fig1.ipynb`.
 
 ## Related works
