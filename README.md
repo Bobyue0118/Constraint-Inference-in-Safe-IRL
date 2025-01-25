@@ -14,9 +14,9 @@ year={2025},
 url={https://openreview.net/forum?id=B2RXwASSpy}
 }
 ```
-Highly related works:
+Most related works:
 - [Benchmarking constraint inference in inverse reinforcement learning](https://arxiv.org/pdf/2206.09670) [ICLR 2023]
-- [Mind the Gap: Offline Policy Optimization for Imperfect Rewards](https://openreview.net/forum?id=WumysvcMvV6)[ICLR 2023]
+- [Mind the Gap: Offline Policy Optimization for Imperfect Rewards](https://openreview.net/forum?id=WumysvcMvV6) [ICLR 2023]
 - [Simplifying constraint inference with inverse reinforcement learning](https://openreview.net/pdf?id=T5Cerv7PT2) [NeurIPS 2024]
 
 
