@@ -33,6 +33,7 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/nvidia
 
 ## IRC vs ICRL
 ```
+# step into the interface dir
 cd ./interface/
 # train ICRL in source
 python train_icrl.py ../config/mujoco_WGW-discrete-v0/train_ICRL_discrete_WGW-v0-setting1.yaml ../config/mujoco_WGW-discrete-v0/train_ICRL_discrete_WGW-v0-setting1_target.yaml
