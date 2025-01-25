@@ -9,7 +9,7 @@ This is the repo for the paper: Understanding Constraint Inference in Safety-Cri
 ### Solver One: Inverse Reward Correction (IRC)
 - An IRC solver is denoted as $\mathbb{S}_\text{IRC}$. A reward correction term  ${\mathit{\Delta r}}$ is a {\it feasible} solution for an ICI problem $\mathfrak{P}$ if and only if $\pi^{E}$ is an optimal policy for \orange{$(\mathcal{M}\backslash r)\cup r^c$}, where corrected rewards $r^c(s,a)=r(s,a)+{\mathit{\Delta r}}(s,a), \forall(s,a)$.
 ### Solver Two: Inverse Constrained Reinforcement Learning (ICRL)
-> An ICRL solver is denoted as $\mathbb{S}_\text{ICRL}$. A cost function $c$ is a {\it feasible} solution for an ICI problem $\mathfrak{P}$ if and only if $\pi^{E}$ is an optimal policy for CMDP $\mathcal{M}_c$.
+- An ICRL solver is denoted as $\mathbb{S}_\text{ICRL}$. A cost function $c$ is a {\it feasible} solution for an ICI problem $\mathfrak{P}$ if and only if $\pi^{E}$ is an optimal policy for CMDP $\mathcal{M}_c$.
 ### Contribution
 - Training efficiency: IRC > ICRL
 - Cross-environment Transferability: ICRL > IRC
