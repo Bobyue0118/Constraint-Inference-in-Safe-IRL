@@ -4,13 +4,13 @@ This is the repo for the paper: Understanding Constraint Inference in Safety-Cri
 
 ## Contribution
 ### Core Problem: Inverse Constraint Inference (ICI)
-- In many practical applications, constraints are not readily available, so we need to infer the constraints followed by expert agents based on their behaviors. An ICI problem is a pair $`\mathfrak{P}=(\mathcal{M},\pi^{E})`$ where $\pi^{E}\in\Delta^\mathcal{A}_{\mathcal{S}}$ is the expert's policy.
+- In many practical applications, constraints are not readily available, so we need to infer the constraints followed by expert agents based on their behaviors. This is known as the ICI problem. The input of an ICI problem is the environment with known reward signals and the expert policy. Typically, the environment is a Markov Decision Process and the expert policy is optimal. The output of an ICI problem is constraint signals based on which an agent can align with expert behaviors.
 ### Critical Question
 - **Can we implicitly embed constraint signals into reward functions and effectively solve ICI problem using a classic reward inference algorithm?**
 ### Solver One: Inverse Reward Correction (IRC)
-- An IRC solver is denoted as $\mathbb{S}_\text{IRC}$. A reward correction term  ${\mathit{\Delta r}}$ is a feasible solution for an ICI problem $\mathfrak{P}$ if and only if $\pi^{E}$ is an optimal policy for $(\mathcal{M}\backslash r)\cup r^c$, where corrected rewards $r^c(s,a)=r(s,a)+{\mathit{\Delta r}}(s,a), \forall(s,a)$.
+- An IRC solver outputs the constraint signal as reward correction terms $\Delta r$ so that $r^c(s,a)=r(s,a)+{\mathit{\Delta r}}(s,a)$ ensures alignment with expert behaviors.
 ### Solver Two: Inverse Constrained Reinforcement Learning (ICRL)
-- An ICRL solver is denoted as $\mathbb{S}_\text{ICRL}$. A cost function $c$ is a feasible solution for an ICI problem $\mathfrak{P}$ if and only if $\pi^{E}$ is an optimal policy for CMDP $\mathcal{M}_c$.
+- An ICRL solver outputs the constraint signal as cost functions $c$ so that the constraint condition ensures alignment with expert behaviors.
 ### Key Insight
 - Training efficiency: IRC > ICRL
 - Cross-environment Transferability: ICRL > IRC
