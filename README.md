@@ -5,7 +5,7 @@ This is the repo for the paper: Understanding Constraint Inference in Safety-Cri
 2. The implementation is based on the code from [ICRL-benchmark](https://github.com/Guiliang/ICRL-benchmarks-public/tree/main).
 
 ## Setup Experimental Environments 
-### Create Python Environment 
+### 1. Create Python Environment 
 1. Please install the conda before proceeding.
 2. Create a conda environment and install the packages:
    
@@ -17,7 +17,7 @@ conda activate ircvsicrl
 ```
 You can also first install Python 3.9 with the torch (2.0.1+cu117) and then install the packages listed in `python_environment.yml`.
 
-### Setup MuJoCo Environment (you can also refer to [MuJoCo Setup](https://github.com/Guiliang/ICRL-benchmarks-public/blob/main/virtual_env_tutorial.md))
+### 2. Setup MuJoCo Environment (you can also refer to [MuJoCo Setup](https://github.com/Guiliang/ICRL-benchmarks-public/blob/main/virtual_env_tutorial.md))
 1. Download the MuJoCo version 2.1 binaries for Linux or OSX.
 2. Extract the downloaded mujoco210 directory into ~/.mujoco/mujoco210.
 3. Install and use mujoco-py.
@@ -48,12 +48,12 @@ Please refer to `numerical_analysis_of_example_in_Fig1.ipynb`.
 
 ## Related works
 
-### Related to ICRL solver
+### 1. Related to ICRL solver
 
 - [Benchmarking constraint inference in inverse reinforcement learning](https://arxiv.org/pdf/2206.09670) [ICLR 2023]
 - [A Comprehensive Survey on Inverse Constrained Reinforcement Learning: Definitions, Progress and Challenges](https://openreview.net/pdf?id=WUQsBiJqyP) [TMLR 2025]
 
-### Related to IRC solver
+### 2. Related to IRC solver
 
 - [Mind the Gap: Offline Policy Optimization for Imperfect Rewards](https://openreview.net/forum?id=WumysvcMvV6) [ICLR 2023]
 - [Simplifying constraint inference with inverse reinforcement learning](https://openreview.net/pdf?id=T5Cerv7PT2) [NeurIPS 2024]
@@ -62,7 +62,7 @@ Please refer to `numerical_analysis_of_example_in_Fig1.ipynb`.
 - [Awesome-Constraint-Inference-in-RL](https://github.com/Jasonxu1225/Awesome-Constraint-Inference-in-RL)
 - [Constrained-Decision-Making-Paper-List](https://github.com/zbzhu99/Constrained-Decision-Making-Paper-List)
 
-## Welcome to Cite and Star
+## 3. Welcome to Cite and Star
 
 Should you find this work helpful, please consider citing:
 ```
