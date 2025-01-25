@@ -3,7 +3,6 @@
 This is the repo for the paper: Understanding Constraint Inference in Safety-Critical Inverse Reinforcement Learning, published at ICLR 2025. Note that:
 1. The experimental environment is mainly based on the [MuJoCo](https://mujoco.org/).
 2. The implementation is based on the code from [ICRL-benchmark](https://github.com/Guiliang/ICRL-benchmarks-public/tree/main).
-This sentence uses `$` delimiters to show math inline: $\sqrt{3x-1}+(1+x)^2$
 
 ## Contribution
 ### Core Problem: Inverse Constraint Inference (ICI)
