@@ -6,7 +6,7 @@ This is the repo for the paper: Understanding Constraint Inference in Safety-Cri
 
 ## Contribution
 ### Core Problem: Inverse Constraint Inference (ICI)
-- In many practical applications, constraints are not readily available, so we need to infer the constraints followed by expert agents based on their behaviors. An ICI problem is a pair $$`\mathfrak{P}=(\mathcal{M},\pi^{E})`$$ where $\pi^{E}\in\Delta^\mathcal{A}_{\mathcal{S}}$ is the expert's policy.
+- In many practical applications, constraints are not readily available, so we need to infer the constraints followed by expert agents based on their behaviors. An ICI problem is a pair $`\mathfrak{P}=(\mathcal{M},\pi^{E})`$ where $\pi^{E}\in\Delta^\mathcal{A}_{\mathcal{S}}$ is the expert's policy.
 ### Critical Question
 - **Can we implicitly embed constraint signals into reward functions and effectively solve ICI problem using a classic reward inference algorithm?**
 ### Solver One: Inverse Reward Correction (IRC)
