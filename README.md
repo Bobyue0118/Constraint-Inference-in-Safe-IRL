@@ -5,7 +5,7 @@ This is the repo for the paper: Understanding Constraint Inference in Safety-Cri
 2. The implementation is based on the code from [ICRL-benchmark](https://github.com/Guiliang/ICRL-benchmarks-public/tree/main).
 
 ## Core Problem
-> Can we implicitly embed constraint signals into reward functions and effectively solve this problem using a classic reward inference algorithm?
+- **Can we implicitly embed constraint signals into reward functions and effectively solve this problem using a classic reward inference algorithm?**
 ### Solver One: Inverse Reward Correction (IRC)
 - An IRC solver is denoted as $\mathbb{S}_\text{IRC}$. A reward correction term  ${\mathit{\Delta r}}$ is a feasible solution for an ICI problem $\mathfrak{P}$ if and only if $\pi^{E}$ is an optimal policy for $(\mathcal{M}\backslash r)\cup r^c$, where corrected rewards $r^c(s,a)=r(s,a)+{\mathit{\Delta r}}(s,a), \forall(s,a)$.
 ### Solver Two: Inverse Constrained Reinforcement Learning (ICRL)
