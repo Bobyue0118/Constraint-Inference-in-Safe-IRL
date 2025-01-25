@@ -14,14 +14,9 @@ year={2025},
 url={https://openreview.net/forum?id=B2RXwASSpy}
 }
 ```
-Other related works:
-```
-@inproceedings{
-liu2023benchmarking,
-title={Benchmarking Constraint Inference in Inverse Reinforcement Learning},
-author={Guiliang Liu and Yudong Luo and Ashish Gaurav and Kasra Rezaee and Pascal Poupart},
-booktitle={The Eleventh International Conference on Learning Representations },
-year={2023},
-url={https://openreview.net/forum?id=vINj_Hv9szL}
-}
-```
+Highly related works:
+- [Benchmarking constraint inference in inverse reinforcement learning](https://arxiv.org/pdf/2206.09670) [ICLR 2023]
+- [Mind the Gap: Offline Policy Optimization for Imperfect Rewards](https://openreview.net/forum?id=WumysvcMvV6)[ICLR 2023]
+- [Simplifying constraint inference with inverse reinforcement learning](https://openreview.net/pdf?id=T5Cerv7PT2) [NeurIPS 2024]
+
+
