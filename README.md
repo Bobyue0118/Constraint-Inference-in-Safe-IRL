@@ -80,9 +80,9 @@ Please refer to `numerical_analysis_of_example_in_Fig1.ipynb`.
 Should you find this work helpful, please consider citing:
 ```
 @inproceedings{
-anonymous2025understanding,
+yue2025understanding,
 title={Understanding Constraint Inference in Safety-Critical Inverse Reinforcement Learning},
-author={Anonymous},
+author={Bo Yue and Shufan Wang and Ashish Gaurav and Jian Li and Pascal Poupart and Guiliang Liu},
 booktitle={The Thirteenth International Conference on Learning Representations},
 year={2025},
 url={https://openreview.net/forum?id=B2RXwASSpy}
