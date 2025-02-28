@@ -1,6 +1,6 @@
 # Understanding Constraint Inference in Safety-Critical Inverse Reinforcement Learning
 
-This is the repo for the paper: Understanding Constraint Inference in Safety-Critical Inverse Reinforcement Learning, published at ICLR 2025. Note that:
+This is the repo for the paper: [Understanding Constraint Inference in Safety-Critical Inverse Reinforcement Learning](https://openreview.net/pdf?id=B2RXwASSpy), published at ICLR 2025. Note that:
 
 ## Contribution
 ### 1. Core Problem: Inverse Constraint Inference (ICI)
