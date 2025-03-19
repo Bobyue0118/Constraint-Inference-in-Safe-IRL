@@ -3,7 +3,7 @@
 This is the repo for the paper: [Understanding Constraint Inference in Safety-Critical Inverse Reinforcement Learning](https://openreview.net/pdf?id=B2RXwASSpy), published at ICLR 2025.
 
 <div align="center">
-  <img width="500px" src="intuitive_example.pdf"/>
+  <img width="500px" src="intuitive_example.png"/>
 </div>
 
 ## Contribution
