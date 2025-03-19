@@ -2,6 +2,10 @@
 
 This is the repo for the paper: [Understanding Constraint Inference in Safety-Critical Inverse Reinforcement Learning](https://openreview.net/pdf?id=B2RXwASSpy), published at ICLR 2025.
 
+<div align="center">
+  <img width="500px" src="intuitive_example.pdf"/>
+</div>
+
 ## Contribution
 ### 1. Core Problem: Inverse Constraint Inference (ICI)
 - In many practical applications, constraints are not readily available, so we need to infer the constraints followed by expert agents based on their behaviors. This is known as the ICI problem. The input of an ICI problem is the environment with known reward signals and the expert policy. Typically, the environment is a Markov Decision Process and the expert policy is optimal. The output of an ICI problem is constraint signals based on which an agent can align with expert behaviors.
