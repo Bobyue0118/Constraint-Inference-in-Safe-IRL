@@ -2,8 +2,6 @@
 
 This is the repo for the paper: [Understanding Constraint Inference in Safety-Critical Inverse Reinforcement Learning](https://openreview.net/pdf?id=B2RXwASSpy), published at ICLR 2025.
 
-![contemplativecloud_48x24](https://github.com/user-attachments/assets/0a4fc79c-075a-4005-88de-e56a58c218bf)
-
 <div align="center">
   <img width="500px" src="imgs/intuitive_example.png"/>
 </div>
