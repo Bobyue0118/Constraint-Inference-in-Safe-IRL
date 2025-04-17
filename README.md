@@ -63,7 +63,7 @@ python train_irc_target.py ../config/mujoco_WGW-discrete-v0/train_ICRL_discrete_
 ### 2. Numerical Validation of Theorem 5.3
 Please refer to `numerical_analysis_of_example_in_Fig1.ipynb`.
 
-## Related works
+## Related Works
 
 ### 1. Related to ICRL solver
 
