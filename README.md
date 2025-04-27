@@ -96,4 +96,5 @@ url={https://openreview.net/forum?id=B2RXwASSpy}
 ## Acknowledgement
 1. The experimental environment is mainly based on the [MuJoCo](https://mujoco.org/).
 2. The implementation is based on the code from [ICRL-benchmark](https://github.com/Guiliang/ICRL-benchmarks-public/tree/main).
+3. The numerical validation of Theorem 5.3 is based on the code from [gridworld-value-iteration](https://github.com/mbodenham/gridworld-value-iteration).
 
