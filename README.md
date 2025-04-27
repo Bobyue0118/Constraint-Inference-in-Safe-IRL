@@ -61,7 +61,7 @@ python train_irc_target.py ../config/mujoco_WGW-discrete-v0/train_ICRL_discrete_
 ```
 
 ### 2. Numerical Validation of Theorem 5.3
-Please refer to `numerical_analysis_of_example_in_Fig1.ipynb`.
+Please refer to [numerical_analysis_of_example_in_Fig1.ipynb](https://github.com/Bobyue0118/Constraint-Inference-in-Safe-IRL/blob/main/numerical_analysis_of_example_in_Fig1.ipynb).
 
 ## Related Works
 
