@@ -86,9 +86,16 @@ Should you find this work helpful, please consider citing:
 @inproceedings{yue2025understanding,
 title={Understanding Constraint Inference in Safety-Critical Inverse Reinforcement Learning},
 author={Bo Yue and Shufan Wang and Ashish Gaurav and Jian Li and Pascal Poupart and Guiliang Liu},
-booktitle={The Thirteenth International Conference on Learning Representations},
+booktitle={The Thirteenth International Conference on Learning Representations (ICLR)},
 year={2025},
 url={https://openreview.net/forum?id=B2RXwASSpy}
+}
+@inproceedings{yue2025provably,
+title={Provably Efficient Exploration in Inverse Constrained Reinforcement Learning},
+author={Bo Yue and Jian Li and Guiliang Liu},
+booktitle={Forty-second International Conference on Machine Learning (ICML)},
+year={2025},
+url={https://openreview.net/forum?id=eLTPkGGHum}
 }
 ```
 
