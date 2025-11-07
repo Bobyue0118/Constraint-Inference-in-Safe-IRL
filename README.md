@@ -66,9 +66,9 @@ Please refer to [numerical_analysis_of_example_in_Fig1.ipynb](https://github.com
 ## Related Works
 
 ### 1. Related to ICRL solver
+- [Provably Efficient Exploration in Inverse Constrained Reinforcement Learning](https://openreview.net/forum?id=eLTPkGGHum) [ICML 2025]
 - [Benchmarking constraint inference in inverse reinforcement learning](https://arxiv.org/pdf/2206.09670) [ICLR 2023]
 - [A Comprehensive Survey on Inverse Constrained Reinforcement Learning: Definitions, Progress and Challenges](https://openreview.net/pdf?id=WUQsBiJqyP) [TMLR 2025]
-- [Provably Efficient Exploration in Inverse Constrained Reinforcement Learning](https://openreview.net/forum?id=eLTPkGGHum) [ICML 2025]
 
 ### 2. Related to IRC solver
 - [Mind the Gap: Offline Policy Optimization for Imperfect Rewards](https://openreview.net/forum?id=WumysvcMvV6) [ICLR 2023]
