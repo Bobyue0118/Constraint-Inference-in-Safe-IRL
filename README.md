@@ -6,7 +6,7 @@ This is the repo for the paper: [Understanding Constraint Inference in Safety-Cr
   <img width="500px" src="imgs/intuitive_example.png"/>
 </div>
 
-## Contribution
+## 💡 Contribution
 ### 1. Core Problem: Inverse Constraint Inference (ICI)
 - In many practical applications, constraints are not readily available, so we need to infer the constraints followed by expert agents based on their behaviors. This is known as the ICI problem. The input of an ICI problem is the environment with known reward signals and the expert policy. Typically, the environment is a Markov Decision Process and the expert policy is optimal. The output of an ICI problem is constraint signals based on which an agent can align with expert behaviors.
 ### 2. Critical Question
@@ -19,7 +19,7 @@ This is the repo for the paper: [Understanding Constraint Inference in Safety-Cr
 - Training efficiency: IRC > ICRL
 - Cross-environment Transferability: ICRL > IRC
 
-## Setup Experimental Environments 
+## ⚙️ Setup Experimental Environments 
 ### 1. Create Python Environment 
 1. Please install the conda before proceeding.
 2. Create a conda environment and install the packages:
@@ -45,7 +45,7 @@ export PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:YOUR_MUJOCO_DIR/.mujoco/mujoco210/bin:/usr/lib/nvidia
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/nvidia
 ```
-## Experiments
+## 🧪 Experiments
 ### 1. IRC vs ICRL
 ```
 # step into the interface dir
@@ -63,7 +63,7 @@ python train_irc_target.py ../config/mujoco_WGW-discrete-v0/train_ICRL_discrete_
 ### 2. Numerical Validation of Theorem 5.3
 Please refer to [numerical_analysis_of_example_in_Fig1.ipynb](https://github.com/Bobyue0118/Constraint-Inference-in-Safe-IRL/blob/main/numerical_analysis_of_example_in_Fig1.ipynb).
 
-## Related Works
+## 📚 Related Works
 
 ### 1. Related to ICRL solver
 - [Provably Efficient Exploration in Inverse Constrained Reinforcement Learning](https://openreview.net/forum?id=eLTPkGGHum) [ICML 2025]
@@ -78,7 +78,7 @@ Please refer to [numerical_analysis_of_example_in_Fig1.ipynb](https://github.com
 - [Awesome-Constraint-Inference-in-RL](https://github.com/Jasonxu1225/Awesome-Constraint-Inference-in-RL)
 - [Constrained-Decision-Making-Paper-List](https://github.com/zbzhu99/Constrained-Decision-Making-Paper-List)
 
-## Citation
+## 📝 Citation
 
 Should you find this work helpful, please consider citing:
 ```
@@ -98,7 +98,7 @@ url={https://openreview.net/forum?id=eLTPkGGHum}
 }
 ```
 
-## Acknowledgement
+## 🙏 Acknowledgement
 1. The experimental environment is mainly based on the [MuJoCo](https://mujoco.org/).
 2. The implementation is based on the code from [ICRL-benchmark](https://github.com/Guiliang/ICRL-benchmarks-public/tree/main).
 3. The numerical validation of Theorem 5.3 is based on the code from [gridworld-value-iteration](https://github.com/mbodenham/gridworld-value-iteration).
